@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from '../components/Layout'
 import { FaAddressCard, FaPhone } from 'react-icons/fa'
 import { SiGmail } from 'react-icons/si'
 
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <Layout>
       <div className='mt-20'>
@@ -25,7 +28,7 @@ function Contact() {
                 size={50}
                 color="green"
                 className="w-full text-center my-10" />
-              <h1 className='text-2xl mb-5 md:text-xs font-mont'>09760078393</h1>
+              <h1 className='text-2xl mb-5 md:text-xl font-mont'>09760078393</h1>
             </div>
 
             <div className='bg-royal mx-10 md:mx-1 md:my-5 shadow-2xl rounded-lg hover:bg-gray-700 hover:text-white'>
@@ -33,7 +36,7 @@ function Contact() {
                 size={50}
                 color="red"
                 className="w-full text-center my-10" />
-              <h1 className='text-2xl mb-5 md:text-xs font-mont'>kairnic@gmail.com</h1>
+              <h1 className='text-2xl mb-5 md:text-xl font-mont'>kairnic@gmail.com</h1>
             </div>
 
             <div className='bg-royal mx-10 md:mx-1 md:my-5 shadow-2xl rounded-lg hover:bg-gray-700 hover:text-white'>
@@ -41,7 +44,7 @@ function Contact() {
                 size={50}
                 color="gray"
                 className="w-full text-center my-10" />
-              <h1 className='text-2xl mb-5 md:text-xs font-mont'>Alamada, North Cotabato</h1>
+              <h1 className='text-2xl mb-5 md:text-xl font-mont'>Alamada, North Cotabato</h1>
             </div>
 
           </div>
