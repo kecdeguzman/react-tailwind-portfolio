@@ -30,7 +30,7 @@ function Projects() {
               <img src={project.image} height='220' className='w-full h-52 text-center' />
               <div className='absolute inset-0 flex items-center justify-center flex-col opacity-0 bg-black hover:opacity-70'>
                 <h1 className='text-3xl font-bold text-white'>{project.title}</h1>
-                <button className='text-white mt-5 border-2 rounded-lg border-white py-2 hover:bg-royal px-5' onClick={() => { window.location.href = project.link; }}>Demo</button>
+                <button className='text-white mt-5 border-2 rounded-lg border-white py-2 hover:bg-royal px-5' onClick={() => { window.open(project.link); }}>Demo</button>
               </div>
             </div>
           </div>

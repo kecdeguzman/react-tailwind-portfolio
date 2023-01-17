@@ -18,7 +18,7 @@ const projectsData = [
     image: "./socialmedia.svg",
     description:
       "An ecommerce application developed using react , node , redux and mongodb",
-    link: "/",
+    link: "https://github.com/kecdeguzman/flutter-login-ui",
   },
 
 ];
