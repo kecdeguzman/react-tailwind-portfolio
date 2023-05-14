@@ -20,6 +20,14 @@ const projectsData = [
       "An ecommerce application developed using react , node , redux and mongodb",
     link: "https://github.com/kecdeguzman/flutter-login-ui",
   },
+  {
+    title: "Recipe Search Web App",
+    image: "./Capture.PNG",
+    description:
+      "A Recipe Search Web App using Django and Edamam API",
+    link: "https://github.com/kecdeguzman/recipe-app",
+  },
+
 
 ];
 

@@ -13,25 +13,25 @@ function Footer() {
           </div>
 
           <div className='flex text-white w-full justify-between py-5'>
-            <a href='https://www.facebook.com/RozenKrone' target="_blank">
+            <a href='https://www.facebook.com/RozenKrone' target="_blank" className='hover:bg-sky hover:text-white hover:rounded-lg'>
               <FaFacebook
                 size={50}
               />
             </a>
 
-            <a href='https://github.com/kecdeguzman' target="_blank">
+            <a href='https://github.com/kecdeguzman' target="_blank" className='hover:bg-sky hover:text-white hover:rounded-lg'>
               <FaGithub
                 size={50}
               />
             </a>
 
-            <a href='mailto:kairnic@gmail.com' target="_blank">
+            <a href='mailto:kairnic@gmail.com' target="_blank" className='hover:bg-sky hover:text-white hover:rounded-lg'>
               <SiGmail
                 size={50}
               />
             </a>
 
-            <a href='https://linkedin.com/in/kairn-ellis-de-guzman' target="_blank">
+            <a href='https://linkedin.com/in/kairn-ellis-de-guzman' target="_blank" className='hover:bg-sky hover:text-white hover:rounded-lg'>
               <FaLinkedin
                 size={50}
               />

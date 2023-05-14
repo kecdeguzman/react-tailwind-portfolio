@@ -103,7 +103,7 @@ function Home() {
         {/* {Web Dev Intro} */}
         <div className="my-20">
           <div className="text-center h-52 bg-primary">
-            <h1 className="text-white font-bold text-4xl py-10">
+            <h1 className="text-white font-bold text-4xl py-10 md:text-2xl">
               I am a Web Developer Currently Learning New Things
             </h1>
           </div>
