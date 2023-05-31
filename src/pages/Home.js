@@ -6,7 +6,7 @@ import {
   FaHtml5,
   FaJsSquare,
   FaReact,
-  FaWordpress,
+  FaPython,
 } from "react-icons/fa";
 import { SiFlutter, SiDart } from "react-icons/si";
 import AOS from 'aos';
@@ -71,9 +71,9 @@ function Home() {
               color="cyan"
               className="w-full text-center mt-20 animate-bounce"
             />
-            <FaWordpress
+            <FaPython
               size={180}
-              color="gray"
+              color="#306998"
               className="w-full text-center mt-20"
             />
             <FaBootstrap
