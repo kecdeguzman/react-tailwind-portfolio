@@ -120,7 +120,7 @@ function Home() {
             </div>
 
             <p className="text-xl my-5 font-semibold md:px-5 px-14 py-10 text-center">
-              Currently I am Learning React and Tailwind. Also in the process of leaning Flutter and Firebase as Database
+              Currently I am Learning React and Tailwind. Also in the process of learning Flutter and Firebase as Database
             </p>
           </div>
         </div>
